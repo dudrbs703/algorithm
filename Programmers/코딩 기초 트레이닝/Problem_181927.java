@@ -16,6 +16,7 @@ public class Problem_181927 {
 
         int tmp3 = tmp1 > tmp2 ? tmp1 - tmp2 : tmp1 * 2;
         int[] answer = new int[len + 1];
+
         for (int i = 0; i < len; i++) {
             answer[i] = num_list[i];
         }
