@@ -14,6 +14,6 @@ public class Problem_120585 {
             if(i > height) answer++;
         }
 
-        System.out.println(answer)
+        System.out.println(answer);
     }
 }

@@ -1,5 +1,3 @@
-import java.util.stream.IntStream;
-
 /**
  * Problem_181916
  */

@@ -11,7 +11,6 @@ public class Problem_181909 {
     public static void main(String[] args) {
 
         String my_string = "programmers";
-        String[] a = new String[my_string.length()];
 
         List<String> b = new ArrayList<>();
         for (int i = 0; i < my_string.length(); i++) {
