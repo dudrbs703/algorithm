@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+/**
+ * Print_1133
+ */
+public class Print_1133 {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        String a = scanner.nextLine();
+        scanner.close();
+
+        System.out.println(a);
+    }
+}
