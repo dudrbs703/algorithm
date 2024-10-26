@@ -1,0 +1,15 @@
+# print_6043.py
+
+a, b = input().split()
+sum = int(a) + int(b)
+minus = int(a) - int(b)
+multipy = int(a) * int(b)
+quotient = int(a) % int(b)
+result = int(a) / int(b)
+divide = round(int(a) / int(b), 2)
+print(sum)
+print(minus)
+print(multipy)
+print(int(result))
+print(quotient)
+print(divide)
