@@ -11,6 +11,8 @@ public class Print_1087 {
         int a = scanner.nextInt();
         int b = 0;
 
+        scanner.close();
+        
         for(int i=1;;i++)
         {
             if(b >= a) {

@@ -13,7 +13,7 @@ public class Print_1017
 
         for(int i=0; i<3; i++)
         {
-            System.out.println(x);
+            System.out.println(a);
         }
     }
 }

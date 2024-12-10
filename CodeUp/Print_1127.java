@@ -15,6 +15,8 @@ public class Print_1127 {
             c += scanner.nextFloat() * scanner.nextFloat();
         }
 
+        scanner.close();
+        
         System.out.println(String.format("%.1f", c));
     }
 }

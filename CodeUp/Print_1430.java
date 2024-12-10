@@ -22,7 +22,9 @@ public class Print_1430
             b[i] = scanner.nextInt();
         }
 
-        int c = 0;
+        scanner.close();
+
+        //int c = 0;
         for(int i=0; i<a.length; i++)
         {
             for(int j=0; i<=b.length; j++)
@@ -30,9 +32,10 @@ public class Print_1430
                 if(a[i] == b[j]) {
                     System.out.print("1"+" ");
                     continue;
-                } else {
-                    c = 0;
-                }
+                } 
+                // else {
+                //     c = 0;
+                // }
             }
             System.out.print("0"+" ");
         }

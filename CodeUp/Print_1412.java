@@ -13,6 +13,8 @@ public class Print_1412
         Scanner scanner = new Scanner(System.in);
         String a = scanner.nextLine();
 
+        scanner.close();
+        
         int []alpahbet = new int[26];
 
         for(int i=0; i<a.length(); i++)

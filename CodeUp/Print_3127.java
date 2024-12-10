@@ -14,28 +14,17 @@ public class Print_3127 {
         scanner.close();
         StringBuilder builder = new StringBuilder();
 
-        /*
         for(int i=0; i<data.length(); i++)
         {
             if(data.charAt(i) == ' ') continue;
             else builder.append(data.charAt(i));
         }
-        data = builder.toString();*/    
+        data = builder.toString();
         
         for(int i=0; i<data.length();i++)
         {
-            if(data.charAt(i) == ' ' )
-            {
-                stack.push(builder.toString());
-                builder.delete(0, builder.length());
-                continue;
-            } else {
-                builder.append(data.charAt(i));
-                continue;
-            }
-            
-            if(!Character.isDigit(data.charAt(i))) //stack.push(String.valueOf(data.charAt(i)));
-            {
+            if(Character.isDigit(data.charAt(i))) stack.push(String.valueOf(data.charAt(i)));
+            else {
                 char op = data.charAt(i);
                 int b = Integer.parseInt(stack.pop());
                 int a = Integer.parseInt(stack.pop());

@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -14,7 +13,8 @@ public class Print_3002 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        /*
+        int n = scanner.nextInt();
+
         Map<Integer, Integer> map = new HashMap<>();
         for(int i=0; i<n; i++)
         {
@@ -33,24 +33,7 @@ public class Print_3002 {
                     if(entry.getValue().equals(a)) System.out.print(entry.getKey()+" ");
                 }
             }
-        }*/
-
-        data = new int[scanner.nextInt()];
-        for(int i=0; i<data.length;i++)
-        {
-            data[i] = scanner.nextInt();
-        }
-        
-        query = new int[scanner.nextInt()];
-        for(int i=0; i<query.length;i++)
-        {
-            query[i] = scanner.nextInt();
-            binary(0, query.length, query[i]);
-            
         }
         scanner.close();
-        
-        
-        //System.out.println(Arrays.binarySearch(data, query[1]));
     }
 }

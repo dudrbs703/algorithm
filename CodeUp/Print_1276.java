@@ -7,7 +7,7 @@ public class Print_1276 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt;
+        int a = scanner.nextInt();
         scanner.close();
 
         int count = 1;

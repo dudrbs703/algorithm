@@ -3,7 +3,6 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.Scanner;
 
 
 /**
@@ -16,7 +15,7 @@ public class Print_1084 {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out));
         String tmp[] = reader.readLine().split(" ");
-        br.close();
+        reader.close();
 
         int r = Integer.parseInt(tmp[0]);
         int g = Integer.parseInt(tmp[1]);
@@ -31,7 +30,7 @@ public class Print_1084 {
             {
                 for(int k=0; k<b; k++)
                 {
-                    bw.write(i+" "+j+" "+k +"\n");
+                    writer.write(i+" "+j+" "+k +"\n");
                     a++;
                 }
             }

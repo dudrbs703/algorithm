@@ -8,6 +8,7 @@ class Print_1204
         String a = scanner.next();
         scanner.close();
         int size = a.length();
+        System.out.println(size);
         
     }
 }

@@ -11,6 +11,8 @@ public class Print_1135 {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
 
+        scanner.close();
+
         if(a >= b) System.out.println("1");
         else System.out.println("0");
     }

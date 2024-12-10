@@ -15,6 +15,8 @@ public class Print_4566 {
         int count = 0;
         int result = 0;
 
+        scanner.close();
+
         PriorityQueue<Integer> queue = new PriorityQueue<>();
         for(int i=a; i<=b; i++)
         {

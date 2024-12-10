@@ -1,4 +1,3 @@
-import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
@@ -46,6 +45,8 @@ public class Print_1420 {
         {
             queue.offer(new StudentScore(scanner.next(), scanner.nextInt()));
         }
+
+        scanner.close();
 
         int count = 0;
         while (true) {

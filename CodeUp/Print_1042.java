@@ -10,6 +10,8 @@ public class Print_1042 {
 
         int a = scanner.nextInt();
         int b = scanner.nextInt();
+
+        scanner.close();
         
         System.out.println(a/b);
     }

@@ -9,5 +9,6 @@ public class Print_1131 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println(scanner.next());
+        scanner.close();
     }
 }

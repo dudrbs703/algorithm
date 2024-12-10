@@ -8,6 +8,8 @@ public class Print_1901 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         fibo(scanner.nextInt());
+
+        scanner.close();
     }
 
     public static void fibo(int n)

@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 /**
- * Print_1143
+ * Print_1141
  */
-public class Print_1143 {
+public class Print_1141 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -14,7 +14,7 @@ public class Print_1162 {
         scanner.close();
 
         String result = String.valueOf(year - month + day);
-        if(result.charAt(resolt.length()-1) == '0') System.out.println("대박");
+        if(result.charAt(result.length()-1) == '0') System.out.println("대박");
         else System.out.println("그럭저럭");
     }
 }

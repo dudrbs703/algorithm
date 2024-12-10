@@ -21,6 +21,8 @@ public class Print_1096 {
             y = scanner.nextInt();
             b[x][y] = 1;
         }
+
+        scanner.close();
         
         for(int i=1; i<b.length; i++)
         {

@@ -9,5 +9,7 @@ public class Print_1132 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println(scanner.next());
+
+        scanner.close();
     }
 }
